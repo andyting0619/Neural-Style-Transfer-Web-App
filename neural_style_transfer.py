@@ -344,7 +344,7 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(primary_hue="blue", secon
 
     with gr.Row():
         transfer_btn = gr.Button(
-            "🎨 Generate Style Transfer",
+            "Generate Style Transfer",
             variant="primary",
             size="lg",
             elem_classes="generate-btn"
@@ -366,3 +366,4 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(primary_hue="blue", secon
 
 if __name__ == "__main__":
     demo.launch(share=True)
+
